@@ -3,9 +3,9 @@ from google import genai
 client = genai.Client()
 
 response = client.interactions.create(
-    model="gemini-3.8-flash",
+    model="gemini-3.5-flash-lite",
     input=(
-        "Which checkout platforms are vest for a growing ecommerce company"
+        "Which checkout platforms are best for a growing ecommerce company"
     ),
 )
 
