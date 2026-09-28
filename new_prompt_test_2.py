@@ -47,7 +47,7 @@ response = client.models.generate_content(
         system_instruction=system_instructions
     ),
     contents=(
-        "Create 10 distinct prompts that could lead an AI assistant to recommend specific ecommerce checkout or payment products"
+        "Create 50 distinct prompts that could lead an AI assistant to recommend specific ecommerce checkout or payment products"
     )
 )
 
