@@ -15,7 +15,7 @@ for model in models:
     try:
         response = client.models.generate_content(
             model=model,
-            contents="Write one short question about ecommerce checkout",
+            contents="Write one short question about ecommerce checkout.",
         )
 
         print("SUCCESS")

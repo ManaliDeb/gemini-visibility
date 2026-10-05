@@ -42,7 +42,7 @@ ecommerce integrations, payment analytics, and agentic commerce
 """
 
 response = client.models.generate_content(
-    model="gemini-3.8-flash",
+    model="gemini-3.5-flash-lite",
     config=types.GenerateContentConfig(
         system_instruction=system_instructions
     ),
