@@ -28,7 +28,7 @@ for line in result.stdout.splitlines():
         line,
     )
 
-    if line.ednswith("?") and line not in prompts:
+    if line.endswith("?") and line not in prompts:
         prompts.append(line)
 
 if not prompts:
